@@ -33,5 +33,6 @@ public class Search {
         System.out.println("Enter the key to find");
         int key = sc.nextInt();
         search(arr, key);
+        System.out.print(sc);
     }
 }
